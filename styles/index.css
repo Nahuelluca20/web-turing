@@ -164,11 +164,13 @@ footer p {
   position: absolute;
   background-color: white;
   list-style: none;
-  padding: 0px 100px;
-  top: 60px;
-  left: 15px;
+  padding: 0 100px;
+  top: 70px;
   justify-items: center;
   border-radius: 10px;
+  margin: 0 15px 0 15px;
+  left:0;
+  right:0;
 }
 
 .menu-list-2 {
@@ -187,6 +189,7 @@ footer p {
   color: hsl(233, 26%, 24%);
   text-decoration: none;
 }
+
 
 @media screen and (min-width: 760px) {
   .home {
