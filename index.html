@@ -8,54 +8,7 @@
   <title>Turing | Desarrollo Web</title>
 </head>
 <body>
-  <header>
-    <nav class="nav">
-      <img src="./images/turing-logo.png" alt="Turing desarrollo Web Mendoza" width="40px">
-      <h1>Turing</h1>
-      <button class="menu" id="menu-button">
-        <img src="./images/menu.svg" alt="" width="30px">
-      </button>
-      <ul class="menu-list" id="menu">
-        <li class="menu-item">
-          <a href="">Inicio</a>
-        </li>
-        <li class="menu-item">
-          <a href="">Contacto</a>
-        </li>
-        <li class="menu-item"> 
-          <a href="./services.html">Servicios</a>
-        </li>
-        <li class="menu-item">
-          <a href="">Nosotros</a>
-        </li>
-        <li class="menu-item">
-          <button class="button-services">
-            Contactar
-          </button>
-        </li>
-      </ul>
-
-      <ul class="menu-list-2" id="menu">
-        <li class="menu-item2">
-          <a href="">Inicio</a>
-        </li>
-        <li class="menu-item2">
-          <a href="">Contacto</a>
-        </li>
-        <li class="menu-item2"> 
-          <a href="./services.html">Servicios</a>
-        </li>
-        <li class="menu-item2">
-          <a href="">Nosotros</a>
-        </li>
-      </ul>
-
-      <button class="button-services-2">
-        Contactar
-      </button>
-
-    </nav>
-  </header>
+  <my-navigation></my-navigation>
   
   <main>
     <section class="home">
@@ -67,11 +20,11 @@
         Turing se dedica a la creación de páginas web para empresas
         y a la mantención de Redes Sociales.
       </p>
-      <button class="button-services">
+      <a href="./contact.html" class="button-services">
         Contactar
-      </button>
+      </a>
     </section>
-
+    
     <section class="why">
       <div class="wrapper">
         <div class="why-description">
@@ -112,7 +65,7 @@
         </div>
       </div>
     </section>
-
+    
     <section class="services">
       <div class="wrapper">
         <h1 class="services-title">Nuestros Servicios</h1>
@@ -127,7 +80,7 @@
               </p>
             </div>
           </div>
-  
+          
           <div class="services-card">
             <img src="./images/social-media.jpg" alt="" width="300px" height="200px">
             <div class="service-info">
@@ -138,47 +91,19 @@
                 indispensable hoy en día.
               </p>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </section>
-
-    <footer>
-      <div>
-        <img src="./images/turing-logo.png" alt="" width="50px">
-      <div class="icons-footer">
-        <a href="https://www.instagram.com/creacionesturing/">
-          <img src="./images/instagram.svg" alt="" width="30px">
-        </a>
-
-        <a href="mailto:creacionesturing@gmail.com">
-          <img src="./images/email.svg" alt="" width="30px">
-        </a>
-      </div>
-      </div>
-
-      <div class="footer-links">
-        <a href="">Inicio</a>
-        <a href="">Contacto</a>
-        <a href="./services.html">Servicios</a>
-        <a href="">Nosotros</a>
-      </div>
-
-      <div>
-        <button class="button-services">
-          Contactar
-        </button>
-        <p>
-          © Turing. All Rights Reserved
-        </p>
-      </div>
-      
-    </footer>
+    
+    <my-footer></my-footer>
+    
   </main>
 
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="./script/menu.js"></script>
   <script src="./script/main.js"></script>
+  <script type="module" src="./script/nav.js"></script>
+  <script type="module" src="./script/footer.js"></script>
   
 </body>
 </html>

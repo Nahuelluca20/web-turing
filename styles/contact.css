@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: hsl(220, 16%, 96%);
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-div {
+  padding: 20px;
+}
+
+input {
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #DD6316;
+  outline: none;
+}
+
+.contact-div h1 {
+  font-size: 40px;
+  color: hsl(233, 26%, 24%);
+}
+
+.consult {
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #DD6316;
+  outline: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    padding: 50px 60px;
+  }
+  .contact-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .contact-div h1 {
+    font-size: 60px;
+  }
+}
