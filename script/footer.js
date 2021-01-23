@@ -29,7 +29,7 @@ class Footer extends HTMLElement {
       </div>
 
       <div>
-        <a href=./contact.html" class="button-services">
+        <a href="./contact.html" class="button-services">
           Contactar
         </a>
         <p>
