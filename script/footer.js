@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer>
-    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 
       <div>
         <img src="./images/turing-logo.png" alt="" width="50px">
@@ -22,14 +22,14 @@ class Footer extends HTMLElement {
       </div>
     
       <div class="footer-links">
-        <a href="../">Inicio</a>
-        <a href="../contact.html">Contacto</a>
-        <a href="../services.html">Servicios</a>
-        <a href="../us.html">Nosotros</a>
+        <a href="./">Inicio</a>
+        <a href="./contact.html">Contacto</a>
+        <a href="./services.html">Servicios</a>
+        <a href="./us.html">Nosotros</a>
       </div>
 
       <div>
-        <a href="../contact.html" class="button-services">
+        <a href=./contact.html" class="button-services">
           Contactar
         </a>
         <p>
