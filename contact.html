@@ -13,14 +13,14 @@
   <section class="contact">
     <div class="contact-div">
       <h1>Contáctenos</h1>
-      <form action="" class="form">
-        <input type="text" placeholder="Su nombre">
-        <input type="email" name="" id="" placeholder="Su Email">
-        <textarea class="consult" name="" id="" cols="30" rows="10" placeholder="Su consulta"></textarea>
-        <button class="button-services">
+      <div class="form">
+        <input type="text" placeholder="Su nombre" id="toName">
+        <input type="email" name="" placeholder="Su Email" id="toEmail">
+        <textarea class="consult" name="" cols="30" rows="10" placeholder="Su consulta" id="toText"></textarea>
+        <button class="button-services" onclick="sendMail()">
           Enviar
         </button>
-      </form>
+      </div>
     </div>
   </section>
 
@@ -29,5 +29,12 @@
 
   <script src="./script/footer.js"></script>
   <script src="./script/nav.js"></script>
+  <script src="./script/email.js"></script>
+  <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+    emailjs.init("user_90vvkD4gVBpOtbyNGltSH");
+    })();
+  </script>
 </body>
 </html>
